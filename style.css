@@ -28,14 +28,16 @@ header nav {
   margin: 0 auto;
   padding: 0 2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  font-weight: 800;
 }
 
 header ul {
   display: flex;
   list-style: none;
   align-items: center;
+  font-size: 1.2rem;
 }
 
 header ul a {
