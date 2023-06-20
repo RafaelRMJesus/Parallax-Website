@@ -13,52 +13,11 @@ body {
   background-color: black;
 }
 
-header {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  top: 0;
-  left: 0;
-  z-index: 100;
-  padding: 0.9rem 0;
-  width: 100%;
-  position: absolute;
-}
-
-header nav {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 800;
-}
-
-header ul {
-  display: flex;
-  list-style: none;
-  align-items: center;
-  font-size: 1.2rem;
-}
-
-header ul a {
-  text-decoration: none;
-  color: white;
-  font-weight: 300;
-  margin-left: 2rem;
-  padding: 0 1.5rem;
-  transition: all 0.3s ease;
-  user-select: none;
-}
-
-.logo {
-  width: 100px;
-}
-
 main {
   background-color: #353;
   height: 100vh;
   width: 100vw;
-  position: relative;
+  position: absolute;
   overflow: hidden;
   user-select: none;
 }

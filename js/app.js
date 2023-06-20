@@ -3,6 +3,17 @@ const parallax_el = document.querySelectorAll(".parallax");
 let xValue = 0;
 let yValue = 0;
 
+var x = null;
+var y = null;
+
+document.addEventListener('mousemove', onMouseUpdate, false);
+document.addEventListener('mouseenter', onMouseUpdate, false);
+
+function onMouseUpdate(e) {
+    x = e.pageX;
+    y = e.pageY;
+}
+
 window.addEventListener('mousemove', (e) => {
   let xValue = e.clientX - window.innerWidth / 2;
   let yValue = e.clientY - window.innerHeight / 2;
