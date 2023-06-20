@@ -28,7 +28,7 @@ To run this project locally, ensure that you have the following software install
 1. Clone this repository to your local machine using the following command:
    
 ```shell
- git clone https://github.com/RafaleRMJesus/parallax-website.git
+ git clone https://github.com/RafaelRMJesus/Parallax-Website.git
 ```
 
 2. Open the project directory in your preferred text editor or IDE.
